@@ -12,48 +12,63 @@
         android:textSize="30dp" />
 
     <EditText
+        android:id="@+id/et_num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="INPUT NUMBER"
         android:paddingTop="20dp" />
 
     <EditText
+        android:id="@+id/et_num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="INPUT NUMBER"
         android:paddingTop="20dp" />
 
     <Button
+        android:id="@+id/bt_plus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" ＋ "
         android:textSize="30dp" />
 
     <Button
+        android:id="@+id/bt_minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" － "
         android:textSize="30dp" />
 
     <Button
+        android:id="@+id/bt_multi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" × "
         android:textSize="30dp" />
 
     <Button
+        android:id="@+id/bt_divid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" ÷ "
         android:textSize="30dp" />
 
     <Button
+        android:id="@+id/bt_remainder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" % "
         android:textSize="30dp" />
 
+    <Button
+        android:id="@+id/bt_equal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" = "
+        android:textSize="30dp" />
+
     <TextView
+        android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
