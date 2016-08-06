@@ -8,19 +8,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="계산기"
+        android:text="CALCULATER"
         android:textSize="30dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="숫자를 입력하세요."
+        android:hint="INPUT NUMBER"
         android:paddingTop="20dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="숫자를 입력하세요."
+        android:hint="INPUT NUMBER"
         android:paddingTop="20dp" />
 
     <Button
@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
-        android:text="계산결과: "
+        android:text="RESULT: "
         android:textColor="#FF0000"
         android:textSize="20dp" />
 
