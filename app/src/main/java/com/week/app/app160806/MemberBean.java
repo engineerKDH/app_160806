@@ -1,8 +1,5 @@
 package com.week.app.app160806;
 
-/**
- * Created by KDH on 2016-08-06.
- */
 public class MemberBean {
     String id, pw, name, phone, email, addr;
 

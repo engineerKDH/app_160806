@@ -3,9 +3,6 @@ package com.week.app.app160806;
 import android.content.Context;
 import android.util.Log;
 
-/**
- * Created by KDH on 2016-08-06.
- */
 public class MemberServiceImpl implements MemberService {
 
     MemberDAO dao;
