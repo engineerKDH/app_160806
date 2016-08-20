@@ -1,4 +1,4 @@
-package com.week.app.app160806;
+package com.week.app.app160806.util;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.week.app.app160806.R;
 
 public class CalcActivity extends Activity implements View.OnClickListener {
 

@@ -7,6 +7,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.week.app.app160806.member.LoginActivity;
+import com.week.app.app160806.util.CalcActivity;
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
     Button bt_calc, bt_login;
@@ -28,7 +31,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bt_calc:
-                Log.d("계산기버튼", "진입");
+                Log.d("★★★★★★★★★★", "계산기 버튼 진입");
                 startActivity(new Intent(this.getApplicationContext(), CalcActivity.class));
                 break;
             case R.id.bt_login:

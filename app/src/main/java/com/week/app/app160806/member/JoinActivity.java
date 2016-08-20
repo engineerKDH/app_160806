@@ -1,10 +1,13 @@
-package com.week.app.app160806;
+package com.week.app.app160806.member;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.week.app.app160806.R;
 
 public class JoinActivity extends Activity implements View.OnClickListener {
 
@@ -40,5 +43,6 @@ public class JoinActivity extends Activity implements View.OnClickListener {
         member.setAddr(et_addr.getText().toString());
 
         service.join(member);
+        startActivity(new Intent(this.getApplicationContext(), LoginActivity.class));
     }
 }

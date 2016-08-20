@@ -1,7 +1,8 @@
-package com.week.app.app160806;
+package com.week.app.app160806.member;
 
 public class MemberBean {
-    String id, pw, name, phone, email, addr;
+
+    private String id, pw, name, phone, email, addr; //은닉화 private
 
     public String getId() {
         return id;
